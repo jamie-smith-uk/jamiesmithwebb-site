@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jamie Smith Webb: Fractional & interim CTO/CPTO · Advisory · Coaching</title>
+<meta name="description" content="Jamie Smith Webb. Product and engineering leadership: fractional and interim CTO/CPTO, board advisory, and coaching. A new site is on the way.">
+
+<meta property="og:title" content="Jamie Smith Webb">
+<meta property="og:description" content="Fractional and interim CTO/CPTO, board advisory, and coaching.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.jamiesmithwebb.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1c1a17;
+    --ink-soft:#4a453e;
+    --ink-faint:#7c766c;
+    --paper:#faf7f1;
+    --paper-2:#f2ede3;
+    --line:#e3dccf;
+    --accent:#9a3b28;
+    --accent-soft:#c9563b;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+  }
+  .wrap{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    max-width:720px;
+    margin:0 auto;
+    padding:48px 28px;
+    width:100%;
+  }
+  .eyebrow{
+    font-size:14px;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:26px;
+  }
+  h1{
+    font-family:"Newsreader",Georgia,serif;font-weight:500;letter-spacing:-0.01em;
+    font-size:clamp(40px,7vw,64px);line-height:1.05;margin:0 0 26px;
+  }
+  .lead{
+    font-size:clamp(18px,2.4vw,21px);color:var(--ink-soft);max-width:56ch;margin:0 0 18px;
+  }
+  .note{
+    font-size:17px;color:var(--ink-faint);max-width:56ch;margin:0 0 36px;
+  }
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+  .btn{
+    display:inline-block;padding:13px 24px;border-radius:2px;font-weight:600;font-size:16px;
+    background:var(--accent);color:#fff;border:1px solid var(--accent);text-decoration:none;
+  }
+  .btn:hover{background:var(--accent-soft);border-color:var(--accent-soft);}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);}
+  .btn.ghost:hover{border-color:var(--ink);}
+  footer{
+    border-top:1px solid var(--line);
+    max-width:720px;margin:0 auto;width:100%;
+    padding:22px 28px;
+    display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;
+    font-size:14px;color:var(--ink-faint);
+  }
+  footer a{color:var(--ink-soft);text-decoration:none;}
+  footer a:hover{color:var(--accent);}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Fractional &amp; interim CTO/CPTO · Advisory · Coaching</div>
+    <h1>Jamie Smith Webb</h1>
+    <p class="lead">Over two decades leading product and engineering across healthcare, fintech and capital markets. Most recently CPTO at Numan. Now working with a small number of founders, boards and leaders who need senior technology leadership, an honest read on where they are, or a coach who has run the function.</p>
+    <p class="note">A fuller site is on the way. In the meantime, the best way to reach me is by email.</p>
+    <div class="cta-row">
+      <a class="btn" href="mailto:jamie@smithwebbs.com">Email me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/jamiesmithwebb/">LinkedIn</a>
+    </div>
+  </main>
+  <footer>
+    <span>© <span id="year"></span> Jamie Smith Webb</span>
+    <span><a href="mailto:jamie@smithwebbs.com">jamie@smithwebbs.com</a></span>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
